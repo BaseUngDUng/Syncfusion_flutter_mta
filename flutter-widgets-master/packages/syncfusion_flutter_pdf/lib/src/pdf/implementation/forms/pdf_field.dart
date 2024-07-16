@@ -2810,7 +2810,7 @@ class PdfFieldHelper {
       bounds = array.toRectangle().rect;
       double? y = 0;
       if ((PdfCrossTable.dereference(array[1])! as PdfNumber).value! < 0) {
-        y = (PdfCrossTable.dereference(array[1])! as PdfNumber).value
+        y = (PdfCrossTable.dereference(array[1])! as PdfNumber).value?.toDouble() ?? 0.0
             as double?;
         if ((PdfCrossTable.dereference(array[1])! as PdfNumber).value! >
             (PdfCrossTable.dereference(array[3])! as PdfNumber).value!) {
