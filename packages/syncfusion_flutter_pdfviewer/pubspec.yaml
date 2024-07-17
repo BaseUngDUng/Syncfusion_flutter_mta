@@ -65,7 +65,7 @@ dependencies:
       path: packages/syncfusion_flutter_pdf
     
       
-  syncfusion_flutter_signaturepad: ^26.1.42
+  syncfusion_flutter_signaturepad: ^26.1.41
     
 
   url_launcher: ^6.1.0
