@@ -16,9 +16,4 @@ dependencies:
   meta: ^1.3.0
   syncfusion_pdfviewer_platform_interface: ^24.2.8     
 
-flutter:
-  plugin:
-    platforms:
-     web:
-        pluginClass: SyncfusionFlutterPdfViewerPlugin
-        fileName: pdfviewer_web.dart
+
